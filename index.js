@@ -1,7 +1,14 @@
 /**
  * Module dependencies
  */
-var throttle = require("throttleit");
+var throttle;
+
+try {
+  throttle = require("throttle");
+}
+catch (e) {
+  throttle = require("throttleit");
+}
 
 /**
  * Save a bound copy of console.log
