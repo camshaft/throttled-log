@@ -13,7 +13,7 @@ catch (e) {
 /**
  * Save a bound copy of console.log
  */
-consolelog = console.log.bind(console);
+var consolelog = console.log.bind(console);
 
 module.exports = function(limit, log) {
   if(typeof limit === "undefined") limit = 1;
