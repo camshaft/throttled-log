@@ -1,6 +1,9 @@
 /**
  * Module dependencies
  */
+
+var con = require('console');
+
 var throttle;
 
 try {
@@ -13,7 +16,8 @@ catch (e) {
 /**
  * Save a bound copy of console.log
  */
-var consolelog = console.log.bind(console);
+
+var consolelog = con.log.bind(con);
 
 module.exports = function(limit, log) {
   if(typeof limit === "undefined") limit = 1;

@@ -10,7 +10,8 @@
   "author": "Cameron Bytheway <cameron@theflokk.com>",
   "license": "MIT",
   "dependencies": {
-    "throttleit": "0.0.2"
+    "throttleit": "0.0.2",
+    "console": "https://github.com/CamShaft/console/archive/master.tar.gz"
   },
   "devDependencies": {
     "should": "~1.2.2",

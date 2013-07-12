@@ -5,7 +5,8 @@
   "version": "0.1.0",
   "keywords": [],
   "dependencies": {
-    "component/throttle": "*"
+    "component/throttle": "*",
+    "CamShaft/console": "*"
   },
   "development": {},
   "license": "MIT",
