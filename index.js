@@ -17,7 +17,7 @@ catch (e) {
  * Save a bound copy of console.log
  */
 
-var consolelog = console.log.bind(console);
+var consolelog = console.log.bind ? console.log.bind(console) : function() {};
 
 module.exports = function(limit, log) {
   if(typeof limit === "undefined") limit = 1;
